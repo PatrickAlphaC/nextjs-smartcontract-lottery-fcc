@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-// import ManualHeader from "../components/ManualHeader"
+import ManualHeader from "../components/ManualHeader"
 import LotteryEntrance from "../components/LotteryEntrance"
 import LotteryInfo from "../components/LotteryInfo"
 import { useMoralis } from "react-moralis"

@@ -1,9 +1,12 @@
+// This file is to show what making a connect button looks like behind the scenes!
+
 import { useEffect } from "react"
 import { useMoralis } from "react-moralis"
 
 // Top navbar
 export default function ManualHeader() {
-    const { enableWeb3, isWeb3Enabled, isWeb3EnableLoading, account, Moralis } = useMoralis()
+    const { enableWeb3, isWeb3Enabled, isWeb3EnableLoading, account, Moralis, deactivateWeb3 } =
+        useMoralis()
 
     useEffect(() => {
         if (isWeb3Enabled) return
