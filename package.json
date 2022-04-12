@@ -10,7 +10,6 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
     "moralis": "^1.3.2",
     "next": "12.1.0",
     "react": "17.0.2",
