@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
 
-const supportedChains = ["31337"]
+const supportedChains = ["31337", "4"]
 
 export default function Home() {
     const { isWeb3Enabled, chainId } = useMoralis()

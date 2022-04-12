@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+lottery-static-website
 
 # testing
 /coverage
