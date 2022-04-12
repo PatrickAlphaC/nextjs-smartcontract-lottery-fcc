@@ -1,8 +1,7 @@
 import Header from "../components/Header"
-import ManualHeader from "../components/ManualHeader"
+// import ManualHeader from "../components/ManualHeader"
 import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
-import { ethers } from "ethers"
 
 const supportedChains = ["31337"]
 
