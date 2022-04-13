@@ -17,6 +17,9 @@ export default function ManualHeader() {
             }
         }
     }, [isWeb3Enabled])
+    // no array, run on every render 
+    // empty array, run once
+    // dependency array, run when the stuff in it changesan
 
     useEffect(() => {
         Moralis.onAccountChanged((account) => {
