@@ -1,34 +1,148 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Smartcontract Lottery (Raffle) FCC
 
-## Getting Started
+This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
 
-First, run the development server:
+Video Coming soon...
 
-```bash
-npm run dev
-# or
+[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
+
+![App](img/readme-app.png)
+
+[Example App here!](https://fancy-dream-3458.on.fleek.co/)
+[Example App on IPFS here!](ipfs://Qme4KacFx21y6pYuTC6veAU2usryXB3fNWqLkX3a2hMvDe)
+
+Built with ❤️ using:
+- NextJS
+- Solidity
+- Chainlink
+- Moralis
+- web3uikit
+- Ethers
+- Hardhat
+- IPFS
+
+- [NextJS Smartcontract Lottery (Raffle) FCC](#nextjs-smartcontract-lottery-raffle-fcc)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Quickstart](#quickstart)
+  - [Typescript](#typescript)
+- [Useage](#useage)
+  - [Testing](#testing)
+- [Deploying to IPFS](#deploying-to-ipfs)
+- [Deploy to IPFS using Fleek](#deploy-to-ipfs-using-fleek)
+
+This project is apart of the Hardhat FreeCodeCamp video.
+
+Video coming soon...
+
+# Getting Started
+
+## Requirements
+
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [Nodejs](https://nodejs.org/en/)
+  - You'll know you've installed nodejs right if you can run:
+    - `node --version` and get an ouput like: `vx.x.x`
+- [Yarn](https://yarnpkg.com/getting-started/install) instead of `npm`
+  - You'll know you've installed yarn right if you can run:
+    - `yarn --version` and get an output like: `x.x.x`
+    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
+
+## Quickstart
+
+```
+git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+cd hardhat-fund-me-fcc
+yarn
+```
+
+## Typescript
+
+If you want to get to typescript and you cloned the javascript version, just run:
+
+```
+git checkout typescript
+```
+
+
+# Useage
+
+1. Run your local blockchain with the lottery code
+
+> In a different terminal / command line
+
+```
+git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+cd hardhat-fund-me-fcc
+yarn 
+yarn hardhat node
+```
+
+> You can read more about how to use that repo from it's [README.md](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/README.md)
+
+
+2. Add hardhat network to your metamask/wallet
+
+- Get the RPC_URL of your hh node (usually `http://127.0.0.1:8545/`)
+- Go to your wallet and add a new network. [See instructions here.](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
+  - Network Name: Hardhat-Localhost
+  - New RPC URL: http://127.0.0.1:8545/
+  - Chain ID: 31337
+  - Currency Symbol: ETH (or GO)
+  - Block Explorer URL: None
+
+Ideally, you'd then [import one of the accounts](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account) from hardhat to your wallet/metamask. 
+
+3. Run this code
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Go to UI and have fun!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Head over to your [localhost](http://localhost:3000) and play with the lottery!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Testing
 
-## Learn More
+I didn't write any front end tests 😢
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to create some tests for this repo, please make a PR!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Deploying to IPFS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Build your static code.
 
-## Deploy on Vercel
+```
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Export your site
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+yarn next export
+```
+
+> Note: Some features of NextJS & Moralis are not static, if you're deviating from this repo, you might run into errors. 
+
+3. Deploy to IPFS
+
+- [Download IPFS desktop](https://ipfs.io/#install)
+- Open your [IPFS desktop app](https://ipfs.io/)
+- Select `import` and chose the folder the above step just created (should be `out`)
+
+4. Copy the CID of the folder you pinned
+
+![IPFS](./img/readme-ipfs.png)
+
+5. Get [IPFS companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en) for your browser (or use [Brave Browser](https://brave.com/))
+
+5. Go to `ipfs://YOUR_CID_HERE` and see your ipfs deployed site!
+
+
+# Deploy to IPFS using Fleek
+
+You can also have [Fleek](https://fleek.co/) auto-deploy your website if you connect your github. Connect to fleek and follow along the docs there. You'll get an IPFS hash and a "regular" URL for your site. 
+
