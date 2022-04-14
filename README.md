@@ -58,6 +58,7 @@ Video coming soon...
 git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
 cd hardhat-fund-me-fcc
 yarn
+yarn typechain
 ```
 
 ## Typescript
