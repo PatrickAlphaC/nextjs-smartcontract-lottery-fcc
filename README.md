@@ -33,7 +33,6 @@ IPFS
 - [Deploy to IPFS using Fleek](#deploy-to-ipfs-using-fleek)
 - [Linting](#linting)
 - [Thank you!](#thank-you)
-  - [Formatting in VSCode](#formatting-in-vscode-1)
 
 This project is apart of the Hardhat FreeCodeCamp video.
 
@@ -183,16 +182,3 @@ ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
 [![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
 
 
-
-## Formatting in VSCode
-
-To have VSCode extension prettier auto-format `.jsx` and `.tsx`, add the following to your settings.json file:
-
-```
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-```
