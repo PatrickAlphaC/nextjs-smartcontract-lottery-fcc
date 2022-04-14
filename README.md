@@ -26,6 +26,7 @@ IPFS
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
   - [Typescript](#typescript)
+  - [Formatting in VSCode](#formatting-in-vscode)
 - [Useage](#useage)
   - [Testing](#testing)
 - [Deploying to IPFS](#deploying-to-ipfs)
@@ -67,6 +68,18 @@ If you want to get to typescript and you cloned the javascript version, just run
 git checkout typescript
 ```
 
+## Formatting in VSCode
+
+To have VSCode extension prettier auto-format `.jsx` and `.tsx`, add the following to your settings.json file:
+
+```
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+```
 
 # Useage
 
