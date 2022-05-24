@@ -119,6 +119,7 @@ export default function LotteryEntrance() {
                                 // onComplete:
                                 // onError:
                                 onSuccess: handleSuccess,
+                                onError: (error) => console.log(error),
                             })
                         }
                         disabled={isLoading || isFetching}
