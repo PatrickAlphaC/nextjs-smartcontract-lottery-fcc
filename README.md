@@ -55,10 +55,10 @@ Video coming soon...
 ## Quickstart
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
+git clone https://github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc
+cd nextjs-smartcontract-lottery-fcc
 yarn
-yarn typechain
+yarn dev
 ```
 
 ## Typescript
@@ -111,6 +111,8 @@ yarn hardhat node
 Ideally, you'd then [import one of the accounts](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account) from hardhat to your wallet/metamask. 
 
 3. Run this code
+
+In another terminal, using the code from this repo, run:
 
 ```
 yarn dev
