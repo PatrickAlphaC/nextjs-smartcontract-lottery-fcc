@@ -2,7 +2,7 @@
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
 
-Video Coming soon...
+*[⌨️ (16:34:07) Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=59647s)*
 
 [Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
 
