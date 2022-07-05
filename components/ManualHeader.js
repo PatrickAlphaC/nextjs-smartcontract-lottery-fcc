@@ -9,12 +9,13 @@ export default function ManualHeader() {
         useMoralis()
 
     useEffect(() => {
-        if (isWeb3Enabled) return
-        if (typeof window !== "undefined") {
-            if (window.localStorage.getItem("connected")) {
-                enableWeb3()
-                // enableWeb3({provider: window.localStorage.getItem("connected")}) // add walletconnect
-            }
+        if (
+            !isWeb3Enabled &&
+            typeof window !== "undefined" &&
+            window.localStorage.getItem("connected")
+        ) {
+            enableWeb3()
+            // enableWeb3({provider: window.localStorage.getItem("connected")}) // add walletconnect
         }
     }, [isWeb3Enabled])
     // no array, run on every render 
