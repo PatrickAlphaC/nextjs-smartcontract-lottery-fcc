@@ -28,14 +28,14 @@ IPFS
   - [Typescript](#typescript)
     - [Optional Gitpod](#optional-gitpod)
   - [Formatting in VSCode](#formatting-in-vscode)
-- [Useage](#useage)
+- [Usage](#usage)
   - [Testing](#testing)
 - [Deploying to IPFS](#deploying-to-ipfs)
 - [Deploy to IPFS using Fleek](#deploy-to-ipfs-using-fleek)
 - [Linting](#linting)
 - [Thank you!](#thank-you)
 
-This project is apart of the Hardhat FreeCodeCamp video.
+This project is a part of the Hardhat FreeCodeCamp video.
 
 Video coming soon...
 
@@ -89,7 +89,7 @@ To have VSCode extension prettier auto-format `.jsx` and `.tsx`, add the followi
   }
 ```
 
-# Useage
+# Usage
 
 1. Run your local blockchain with the lottery code
 
@@ -102,7 +102,7 @@ yarn
 yarn hardhat node
 ```
 
-> You can read more about how to use that repo from it's [README.md](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/README.md)
+> You can read more about how to use that repo from its [README.md](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/README.md)
 
 
 2. Add hardhat network to your metamask/wallet
@@ -156,7 +156,7 @@ yarn next export
 
 - [Download IPFS desktop](https://ipfs.io/#install)
 - Open your [IPFS desktop app](https://ipfs.io/)
-- Select `import` and chose the folder the above step just created (should be `out`)
+- Select `import` and choose the folder the above step just created (should be `out`)
 
 4. Copy the CID of the folder you pinned
 
