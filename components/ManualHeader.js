@@ -46,11 +46,13 @@ export default function ManualHeader() {
                         <button
                             onClick={async () => {
                                 // await walletModal.connect()
-                                await enableWeb3()
-                                // depends on what button they picked
-                                if (typeof window !== "undefined") {
-                                    window.localStorage.setItem("connected", "injected")
-                                    // window.localStorage.setItem("connected", "walletconnect")
+                                const ret = await enableWeb3()
+                                if (typeof ret !== "undefined") {
+                                    // depends on what button they picked
+                                    if (typeof window !== "undefined") {
+                                        window.localStorage.setItem("connected", "injected")
+                                        // window.localStorage.setItem("connected", "walletconnect")
+                                    }
                                 }
                             }}
                             disabled={isWeb3EnableLoading}
