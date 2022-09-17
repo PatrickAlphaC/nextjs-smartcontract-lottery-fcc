@@ -99,11 +99,14 @@ export default function LotteryEntrance() {
         })
     }
 
-    // Probably could add some error handling
     const handleSuccess = async (tx) => {
-        await tx.wait(1)
-        updateUIValues()
-        handleNewNotification(tx)
+        try {
+            await tx.wait(1)
+            updateUIValues()
+            handleNewNotification(tx)
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     return (
