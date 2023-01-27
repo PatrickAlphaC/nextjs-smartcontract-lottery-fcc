@@ -103,7 +103,7 @@ export default function LotteryEntrance() {
         try {
             await tx.wait(1)
             updateUIValues()
-            handleNewNotification(tx)
+            handleNewNotification()
         } catch (error) {
             console.log(error)
         }
