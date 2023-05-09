@@ -1,3 +1,7 @@
+# Important!!
+
+The moralis integration has been removed. Please use the [the graph](https://github.com/PatrickAlphaC/nextjs-nft-marketplace-thegraph-fcc) integration instead. 
+
 # NextJS Smartcontract Lottery (Raffle) FCC
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
