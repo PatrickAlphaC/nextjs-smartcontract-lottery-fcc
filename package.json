@@ -1,26 +1,28 @@
 {
-  "name": "nextjs-smartcontract-lottery-fcc",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "moralis": "^1.8.0",
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-moralis": "^1.4.0",
-    "web3uikit": "^0.1.159"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
-  }
+    "name": "lottery",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@walletconnect/ethereum-provider": "^2.9.1",
+        "@walletconnect/modal": "^2.6.0",
+        "@web3uikit/core": "^0.1.5",
+        "@web3uikit/icons": "^0.1.5",
+        "@web3uikit/web3": "^0.1.5",
+        "autoprefixer": "10.4.14",
+        "magic-sdk": "^17.1.3",
+        "moralis": "^1.3.2",
+        "moralis-v1": "^1.12.0",
+        "next": "13.3.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-moralis": "^1.3.1",
+        "tailwindcss": "3.3.2",
+        "web3uikit": "^0.1.75"
+    }
 }
