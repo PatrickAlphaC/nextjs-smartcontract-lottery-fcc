@@ -1,3 +1,7 @@
+# Update: Head to Cyfrin Updraft
+
+> **ℹ️ Important:** This repo is no longer maintained, we invite all people learning Solidtiy to head to [Cyfrin Updraft](https://updraft.cyfrin.io/)! The 100% free #1 smart contract education platform on earth. 
+
 # Important!!
 
 The moralis integration has been removed. Please use the [the graph](https://github.com/PatrickAlphaC/nextjs-nft-marketplace-thegraph-fcc) integration instead. 
